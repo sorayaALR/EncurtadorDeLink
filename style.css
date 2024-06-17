@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+.box{
+    background-color: rgb(43, 75, 104);
+    margin-top: 100px;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.box h1{
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.box-input{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.input-url{
+    padding: 12px 20px;
+    text-align: center;
+    outline: transparent;
+    width: 40%;
+    border-radius: 50px;
+    font-size: 20px;
+    color: #444444;
+}
+
+.btn{
+    padding: 15px 20px;
+    width: 170px;
+    margin-left: 10px;
+    border-radius: 50px;
+    background-color: #01a9d3;
+    font-size: 20px;
+    color: #ffffff; 
+}
+
+.btn:hover{
+    transition: .5s;
+    background-color: #01a9d3;
+}
+
